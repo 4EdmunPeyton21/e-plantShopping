@@ -1,0 +1,51 @@
+.home-page {
+  /* Replace the URL on this line with the image address you copied */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://static.vecteezy.com/system/resources/previews/055/248/135/large_2x/expansive-outdoor-plant-nursery-with-rows-of-lush-greenery-under-blue-skies-photo.jpg');
+  
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: left;
+}
+
+.overlay-content {
+  max-width: 1100px;
+  width: 90%;
+  padding: 3rem;
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+
+.left-panel {
+  flex-basis: 40%;
+}
+
+.left-panel h1 {
+  font-size: 3.5rem;
+  line-height: 1.1;
+  margin: 0;
+}
+
+.left-panel .subtitle {
+  font-size: 1.2rem;
+  margin: 0.5rem 0 2rem;
+  color: #f0f0f0;
+}
+
+.get-started-btn {
+  font-size: 1.2rem;
+  padding: 14px 30px;
+}
+
+.right-panel {
+  flex-basis: 60%;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  border-left: 2px solid rgba(255, 255, 255, 0.5);
+  padding-left: 3rem;
+}
